@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="es">
+<head>
+<link rel="stylesheet" type="text/css" href="base.css" />
+<link rel="stylesheet" type="text/css" href="content.css" />
+<link rel="stylesheet" type="text/css" href="nav.css" />
+<meta http-equiv="content-type" content="text/html;  charset=utf-8" />
+<title>Reto 14: Encendido gradual de leds de izqda a drcha | Programamos la microbit </title>
+<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+<meta name="author" content="ecf" />
+<link rel="license" type="text/html" href="http://creativecommons.org/licenses/by-sa/4.0/" />
+<meta name="generator" content="eXeLearning 2.8.1 - exelearning.net" />
+<!--[if lt IE 9]><script type="text/javascript" src="exe_html5.js"></script><![endif]-->
+<script type="text/javascript" src="exe_jquery.js"></script>
+<script type="text/javascript" src="common_i18n.js"></script>
+<script type="text/javascript" src="common.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+	</head>
+<body class="exe-web-site" id="exe-node-21"><script type="text/javascript">document.body.className+=" js"</script>
+<div id="content">
+<p id="skipNav"><a href="#main" class="sr-av">Saltar la navegación</a></p>
+<header id="header" ><div id="headerContent">Programamos la microbit</div></header>
+<nav id="siteNav">
+<ul>
+   <li><a href="index.html" class="daddy main-node">IES Aricel. Curso 2023-2024</a></li>
+   <li><a href="programacin_de_la_microbit.html" class="no-ch">Programación de la microbit</a></li>
+   <li><a href="reto_1_hola_mundo.html" class="no-ch">Reto 1: Hola mundo</a></li>
+   <li><a href="reto_2_grficos.html" class="no-ch">Reto 2: Gráficos</a></li>
+   <li><a href="reto_3_mostrar_temperatura.html" class="no-ch">Reto 3: Mostrar temperatura</a></li>
+   <li><a href="reto_4_mostrar_umbral_de_luz.html" class="no-ch">Reto 4: Mostrar umbral de luz</a></li>
+   <li><a href="reto_5_juego_piedrapapeltijera.html" class="no-ch">Reto 5: Juego piedra-papel-tijera</a></li>
+   <li><a href="reto_6_dado_electrnico.html" class="no-ch">Reto 6: Dado electrónico</a></li>
+   <li><a href="reto_7_termostato_con_icono_de_temperatura.html" class="no-ch">Reto 7: Termostato con icono de temperatura</a></li>
+   <li><a href="reto_8_barras_temperatura.html" class="no-ch">Reto 8: Barras temperatura</a></li>
+   <li><a href="reto_9_contador_de_turno.html" class="no-ch">Reto 9: Contador de turno</a></li>
+   <li><a href="reto_10_pulsador_de_encendidoapagado.html" class="no-ch">Reto 10: Pulsador de encendido-apagado.</a></li>
+   <li><a href="reto_11_brjula.html" class="no-ch">Reto 11: Brújula</a></li>
+   <li><a href="reto_12_nivel_de_sonido.html" class="no-ch">Reto 12: Nivel de sonido</a></li>
+   <li><a href="reto_13_juego_siete_y_media.html" class="no-ch">Reto 13: Juego siete y media</a></li>
+   <li id="active"><a href="reto_14_encendido_gradual_de_leds_de_izqda_a_drcha.html" class="active no-ch">Reto 14: Encendido gradual de leds de izqda a drcha</a></li>
+   <li><a href="reto_15_encendido_gradual_de_los_leds_de_izquierda_a_derecha_y_de_arriba_a_abajo.html" class="no-ch">Reto 15: Encendido gradual de los leds de izquierda a derecha y de arriba a abajo</a></li>
+   <li><a href="reto_16_juego_de_dados_por_radio.html" class="no-ch">Reto 16: Juego de dados por radio</a></li>
+   <li><a href="reto_17_juego_de_dados_con_ganador.html" class="no-ch">Reto 17: Juego de dados con ganador</a></li>
+   <li><a href="reto_18_estacin_meteorolgica_por_radio.html" class="no-ch">Reto 18: Estación meteorológica por radio</a></li>
+   <li><a href="reto_19_despertador_solar.html" class="no-ch">Reto 19: Despertador solar</a></li>
+   <li><a href="reto_20_termmetro_de_mxima_y_mnima.html" class="no-ch">Reto 20: Termómetro de máxima y mínima</a></li>
+   <li><a href="reto_21_alarma_por_radio_con_detector_de_movimiento.html" class="no-ch">Reto 21: Alarma por radio con detector de movimiento</a></li>
+   <li><a href="l1medir_y_almacenar_datos.html" class="no-ch">L1-Medir y almacenar datos</a></li>
+   <li><a href="l2trabajando_con_sensores.html" class="no-ch">L2-Trabajando con sensores</a></li>
+   <li><a href="manual_de_programacin.html" class="no-ch">Manual de programación</a></li>
+   <li><a href="actualizar_firmware.html" class="no-ch">Actualizar FIRMWARE</a></li>
+</ul>
+</nav>
+<div id='topPagination'>
+<nav class="pagination noprt">
+<a href="reto_13_juego_siete_y_media.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="reto_15_encendido_gradual_de_los_leds_de_izquierda_a_derecha_y_de_arriba_a_abajo.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+<div id="main-wrapper">
+<section id="main">
+<header id="nodeDecoration"><h1 id="nodeTitle">Reto 14: Encendido gradual de leds de izqda a drcha</h1></header>
+<article class="iDevice_wrapper pblIdevice em_iDevice em_iDevice_activity" id="id19">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header" style="background-image:url(icon_activity.png)"><h1 class="iDeviceTitle">Tarea</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta19_114_2" class="block iDevice_content">
+<div class="pbl-task-description"><p>Se trata de encender y apagar secuencialmente los leds de izquierda a derecha de la primera. Nivel: Inicial</p>
+<p></p></div><div class="iDevice_buttons feedback-button js-required"><input type="button" class="feedbackbutton" value="Mostrar retroalimentación" /></div><div class="feedback js-feedback js-hidden"><p><img src="Captura_de_Pantalla_2022-11-14_a_las_19.43.05.png" alt="" width="1378" height="818" /></p></div>
+</div>
+</div>
+</div>
+</div>
+</article>
+<article class="iDevice_wrapper FileAttachIdeviceInc em_iDevice em_iDevice_assignment" id="id20">
+<div class="iDevice emphasis1" >
+<header class="iDevice_header"><h1 class="iDeviceTitle">Ficheros adjuntos</h1></header>
+<div class="iDevice_inner">
+<div class="iDevice_content_wrapper">
+<div id="ta20_82" class="block iDevice_content">
+
+</div>
+<ul class='exeFileList'><li><a href='microbit-secuencia1.hex.zip' target='_blank'>microbit-secuencia1.hex.zip<span> (Ventana nueva)</span></a></li>
+</ul></div>
+</div>
+</div>
+</article>
+<div id="packageLicense" class="cc cc-by-sa">
+<p><span>Obra publicada con</span> <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Licencia Creative Commons Reconocimiento Compartir igual 4.0</a></p>
+</div>
+</section>
+</div>
+<div id='bottomPagination'>
+<nav class="pagination noprt">
+<a href="reto_13_juego_siete_y_media.html" class="prev"><span><span>&laquo; </span>Anterior</span></a> <span class="sep">| </span><a href="reto_15_encendido_gradual_de_los_leds_de_izquierda_a_derecha_y_de_arriba_a_abajo.html" class="next"><span>Siguiente<span> &raquo;</span></span></a>
+</nav>
+</div>
+</div>
+<p id="made-with-eXe"><a href="https://exelearning.net/" target="_blank" rel="noopener"><span>Creado con eXeLearning<span> (Ventana nueva)</span></span></a></p><script type="text/javascript" src="_cedec_js.js"></script></body></html>
